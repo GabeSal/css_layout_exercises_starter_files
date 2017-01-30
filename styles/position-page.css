@@ -1,1 +1,73 @@
+nav {
+  width: 100%;
+  position: fixed;
+  padding-right: 60px;
+  padding-left: 60px;
+  border: 1px grey solid;
+  background-color: grey;
+  height: 50px;
+  z-index: 100;
+}
 
+nav img {
+  width: 45px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+nav ul {
+  position: relative;
+  list-style: none;
+  left: 100px;
+  margin: 0px;
+  padding: 0px;
+  bottom: 70%;
+}
+
+nav ul li {
+  display: inline;
+  text-align: center;
+}
+
+#bg {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  z-index: 0;
+}
+
+ .dotted-box {
+  width: 600px;
+  height: 300px;
+
+  position: absolute;
+  display: inline-block;
+  top: 250px;
+  left: 215px;
+
+  border: 10px dotted green;
+  z-index: 10;
+ }
+
+ .cat-img {
+  width: 200px;
+  position: relative;
+  left: 125px;
+  top: 150px;
+
+  z-index: 10;
+ }
+
+ .dog-img {
+  width: 200px;
+  position: relative;
+  left: 675px;
+  top: 250px;
+
+  z-index: 10;
+ }
